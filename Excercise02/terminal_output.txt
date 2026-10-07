@@ -1,0 +1,47 @@
+﻿C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise02>mpicc -O2 -o ex2_sum.exe ex2_sum.c
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise02>mpiexec -n 1 ex2_sum.exe
+procs=1 sum=50000005000000 expected=50000005000000 time=0.002318
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise02>mpiexec -n 1 ex2_sum.exe
+procs=1 sum=50000005000000 expected=50000005000000 time=0.002307
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise02>mpiexec -n 1 ex2_sum.exe
+procs=1 sum=50000005000000 expected=50000005000000 time=0.002269
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise02>mpiexec -n 2 ex2_sum.exe
+procs=2 sum=50000005000000 expected=50000005000000 time=0.001143
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise02>mpiexec -n 2 ex2_sum.exe
+procs=2 sum=50000005000000 expected=50000005000000 time=0.001163
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise02>mpiexec -n 2 ex2_sum.exe
+procs=2 sum=50000005000000 expected=50000005000000 time=0.001221
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise02>mpiexec -n 4 ex2_sum.exe
+procs=4 sum=50000005000000 expected=50000005000000 time=0.000833
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise02>mpiexec -n 4 ex2_sum.exe
+procs=4 sum=50000005000000 expected=50000005000000 time=0.000678
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise02>mpiexec -n 4 ex2_sum.exe
+procs=4 sum=50000005000000 expected=50000005000000 time=0.000753
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise02>mpiexec -n 8 ex2_sum.exe
+procs=8 sum=50000005000000 expected=50000005000000 time=0.000525
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise02>mpiexec -n 8 ex2_sum.exe
+procs=8 sum=50000005000000 expected=50000005000000 time=0.000721
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise02>mpiexec -n 8 ex2_sum.exe
+procs=8 sum=50000005000000 expected=50000005000000 time=0.000669
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise02>mpiexec -n 16 ex2_sum.exe
+procs=16 sum=50000005000000 expected=50000005000000 time=0.001044
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise02>mpiexec -n 16 ex2_sum.exe
+procs=16 sum=50000005000000 expected=50000005000000 time=0.000929
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise02>mpiexec -n 16 ex2_sum.exe
+procs=16 sum=50000005000000 expected=50000005000000 time=0.000982
+

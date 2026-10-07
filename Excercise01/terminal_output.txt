@@ -1,0 +1,8 @@
+﻿C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise01>mpicxx -o job1.exe ..\HelloMPI.c
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise01>mpiexec -n 4 job1.exe
+Just a normal process From rank 2 machine LAPTOP-4AVM3EAD
+Hello World! From rank 0 machine LAPTOP-4AVM3EAD
+Just a normal process From rank 3 machine LAPTOP-4AVM3EAD
+Just a normal process From rank 1 machine LAPTOP-4AVM3EAD
+

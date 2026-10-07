@@ -1,0 +1,100 @@
+﻿C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise06>mpicc -O2 -o ex3_pi.exe ../Excercise03/ex3_pi.c
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise06>mpicc -O2 -o ex6_pi_any.exe ex6_pi_any.c
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise06>mpiexec -n 4 ex3_pi.exe
+  received 1962611 from rank 1
+  received 1964010 from rank 2
+  received 1964047 from rank 3
+procs=4 pi=3.14151760 inside=7853794 time=0.016129
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise06>mpiexec -n 4 ex6_pi_any.exe
+  received 1964010 from rank 2
+  received 1962611 from rank 1
+  received 1964047 from rank 3
+procs=4 pi=3.14151760 inside=7853794 time=0.015861
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise06>mpiexec -n 4 ex3_pi.exe
+  received 1962611 from rank 1
+  received 1964010 from rank 2
+  received 1964047 from rank 3
+procs=4 pi=3.14151760 inside=7853794 time=0.015279
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise06>mpiexec -n 4 ex6_pi_any.exe
+  received 1964010 from rank 2
+  received 1964047 from rank 3
+  received 1962611 from rank 1
+procs=4 pi=3.14151760 inside=7853794 time=0.015095
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise06>mpiexec -n 4 ex3_pi.exe
+  received 1962611 from rank 1
+  received 1964010 from rank 2
+  received 1964047 from rank 3
+procs=4 pi=3.14151760 inside=7853794 time=0.015688
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise06>mpiexec -n 4 ex6_pi_any.exe
+  received 1964010 from rank 2
+  received 1962611 from rank 1
+  received 1964047 from rank 3
+procs=4 pi=3.14151760 inside=7853794 time=0.015743
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise06>mpiexec -n 8 ex3_pi.exe
+  received 981327 from rank 1
+  received 981873 from rank 2
+  received 981544 from rank 3
+  received 981352 from rank 4
+  received 981498 from rank 5
+  received 981097 from rank 6
+  received 981706 from rank 7
+procs=8 pi=3.14075600 inside=7851890 time=0.008192
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise06>mpiexec -n 8 ex6_pi_any.exe
+  received 981097 from rank 6
+  received 981327 from rank 1
+  received 981873 from rank 2
+  received 981498 from rank 5
+  received 981352 from rank 4
+  received 981544 from rank 3
+  received 981706 from rank 7
+procs=8 pi=3.14075600 inside=7851890 time=0.008641
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise06>mpiexec -n 8 ex3_pi.exe
+  received 981327 from rank 1
+  received 981873 from rank 2
+  received 981544 from rank 3
+  received 981352 from rank 4
+  received 981498 from rank 5
+  received 981097 from rank 6
+  received 981706 from rank 7
+procs=8 pi=3.14075600 inside=7851890 time=0.008724
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise06>mpiexec -n 8 ex6_pi_any.exe
+  received 981352 from rank 4
+  received 981873 from rank 2
+  received 981327 from rank 1
+  received 981706 from rank 7
+  received 981097 from rank 6
+  received 981498 from rank 5
+  received 981544 from rank 3
+procs=8 pi=3.14075600 inside=7851890 time=0.009244
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise06>mpiexec -n 8 ex3_pi.exe
+  received 981327 from rank 1
+  received 981873 from rank 2
+  received 981544 from rank 3
+  received 981352 from rank 4
+  received 981498 from rank 5
+  received 981097 from rank 6
+  received 981706 from rank 7
+procs=8 pi=3.14075600 inside=7851890 time=0.008215
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise06>mpiexec -n 8 ex6_pi_any.exe
+  received 981544 from rank 3
+  received 981706 from rank 7
+  received 981873 from rank 2
+  received 981327 from rank 1
+  received 981097 from rank 6
+  received 981498 from rank 5
+  received 981352 from rank 4
+procs=8 pi=3.14075600 inside=7851890 time=0.008353
+

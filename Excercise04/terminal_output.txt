@@ -1,0 +1,8 @@
+﻿C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise04>python plot.py
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise04>dir /b
+plot.py
+speedup_vs_procs.png
+terminal_output.txt
+time_vs_procs.png
+

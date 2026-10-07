@@ -1,0 +1,17 @@
+﻿C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise05>mpicxx -O2 -o ex5a_mismatch.exe ex5a_mismatch.cc
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise05>mpiexec -n 4 ex5a_mismatch.exe
+Rank 3: waiting for a message from rank 2
+Rank 1: sending to rank 3
+^C   [job still running after 10 seconds with no further output - stopped manually]
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise05>mpicxx -O2 -o ex5b_bsend.exe ex5b_bsend.cc
+
+C:\Users\RAVINDU\OneDrive\Documents\CS Notes\Y3S1\PC\Lab08\SE4060-MPI-PcLab08\Excercise05>mpiexec -n 4 ex5b_bsend.exe
+Just a normal process From rank 0 machine LAPTOP-4AVM3EAD
+in computer 3 the value of y is printed
+ 0  10  20  30  40  50  60  70  80  90 
+Just a normal process From rank 2 machine LAPTOP-4AVM3EAD
+Sending message to computer 3 from computer 1 (Bsend)
+Rank 1: x overwritten with -1 after Bsend
+
